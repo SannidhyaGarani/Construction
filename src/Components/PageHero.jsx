@@ -26,7 +26,7 @@ const PageHero = ({ title, subtitle, backgroundImage, className = '' }) => {
         <div className="max-w-4xl">
           {/* Top Line */}
           <div className={`flex items-center gap-4 mb-6 transition-all duration-1000 delay-300 ${isLoaded ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
-            <span className="h-[1px] w-8 bg-[#811331]" />
+            <span className="h-[1px] w-8 bg-[#B87333]" />
             <span className="text-[10px] uppercase tracking-[0.4em] text-stone-400 font-bold">
               {subtitle}
             </span>

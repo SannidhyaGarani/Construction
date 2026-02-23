@@ -7,7 +7,7 @@ const Preloader = () => {
     const [phase, setPhase] = useState('enter'); // 'enter', 'hold', 'exit'
     
     // Updated to match your logo's primary blue
-    const brandBlue = '#25477a'; 
+    const brandBlue = '#B87333'; 
     const deepNavy = '#0a0f1a';
     
     useEffect(() => {

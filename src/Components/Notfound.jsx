@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft, Home, Hammer, Map } from 'lucide-react';
 
 const NotFound = () => {
-  const brandBlue = '#25477a';
+  const brandBlue = '#B87333';
   const deepNavy = '#0a0f1a';
 
   return (
@@ -26,12 +26,12 @@ const NotFound = () => {
       <div className="relative z-10 text-center max-w-2xl">
         {/* Animated Icon */}
         <div className="mb-8 flex justify-center">
-            <div className="p-5 rounded-full border border-[#25477a]/30 bg-[#25477a]/5 animate-pulse">
-                <Hammer size={40} className="text-[#25477a]" strokeWidth={1} />
+            <div className="p-5 rounded-full border border-[#B87333]/30 bg-[#B87333]/5 animate-pulse">
+                <Hammer size={40} className="text-[#B87333]" strokeWidth={1} />
             </div>
         </div>
 
-        <span className="text-[11px] uppercase tracking-[0.8em] text-[#25477a] font-bold block mb-4">
+        <span className="text-[11px] uppercase tracking-[0.8em] text-[#B87333] font-bold block mb-4">
             Error Code: Structural Gap
         </span>
         
@@ -47,7 +47,7 @@ const NotFound = () => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
           <Link 
             to="/" 
-            className="group flex items-center gap-3 bg-[#25477a] text-white px-8 py-4 text-[12px] uppercase tracking-widest font-bold transition-all duration-500 hover:bg-[#1a335a] shadow-[0_10px_30px_rgba(37,71,122,0.2)]"
+            className="group flex items-center gap-3 bg-[#B87333] text-white px-8 py-4 text-[12px] uppercase tracking-widest font-bold transition-all duration-500 hover:bg-[#1a335a] shadow-[0_10px_30px_rgba(37,71,122,0.2)]"
           >
             <Home size={16} className="transition-transform group-hover:-translate-y-1" />
             Return to Home
@@ -68,7 +68,7 @@ const NotFound = () => {
                 <Link 
                     key={item}
                     to={`/${item.toLowerCase().replace(' ', '')}`}
-                    className="text-[10px] uppercase tracking-[0.3em] text-slate-500 hover:text-[#25477a] transition-colors"
+                    className="text-[10px] uppercase tracking-[0.3em] text-slate-500 hover:text-[#B87333] transition-colors"
                 >
                     {item}
                 </Link>

@@ -49,7 +49,7 @@ const Services = () => {
       <section className="py-24 px-6 md:px-16 max-w-[1440px] mx-auto">
         <div className="max-w-4xl">
           <Reveal>
-             <span className="text-[10px] uppercase tracking-[0.4em] text-[#811331] font-bold block mb-6">What We Do</span>
+             <span className="text-[10px] uppercase tracking-[0.4em] text-[#B87333] font-bold block mb-6">What We Do</span>
             <h2 className="font-serif text-4xl md:text-5xl leading-tight text-[#0E3A40]">
               Detailed, accountable, and <span className="italic text-stone-400">design-led</span> services across architecture, interiors, and execution.
             </h2>
@@ -88,11 +88,11 @@ const Services = () => {
             {/* Content Side */}
             <div className={`${i % 2 === 1 ? 'lg:order-1' : ''} relative z-10`}>
               <Reveal direction={i % 2 === 1 ? 'right' : 'left'}>
-                <span className="text-[10px] uppercase tracking-[0.4em] text-[#811331] font-bold mb-4 block">
+                <span className="text-[10px] uppercase tracking-[0.4em] text-[#B87333] font-bold mb-4 block">
                    Service 0{i + 1}
                 </span>
                 <h3 className="text-3xl md:text-4xl font-serif text-[#0E3A40] mb-6">{s.title}</h3>
-                <div className="h-[1px] w-12 bg-[#811331] mb-8" />
+                <div className="h-[1px] w-12 bg-[#B87333] mb-8" />
                 <p className="text-stone-600 text-lg leading-relaxed">
                   {s.desc}
                 </p>

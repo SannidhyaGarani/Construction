@@ -49,7 +49,7 @@ const Gallery = () => {
                   {/* Overlay Content */}
                   <div className="absolute inset-0 p-8 flex flex-col justify-end opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                     <div className="translate-y-4 group-hover:translate-y-0 transition-transform duration-500 delay-100">
-                      <span className="text-[#811331] text-[10px] uppercase tracking-[0.3em] font-bold mb-2 block">
+                      <span className="text-[#B87333] text-[10px] uppercase tracking-[0.3em] font-bold mb-2 block">
                         {project.category}
                       </span>
                       <h3 className="text-white font-serif text-2xl md:text-3xl mb-6">

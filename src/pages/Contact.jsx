@@ -19,7 +19,7 @@ const Contact = () => {
           <div className="space-y-16">
             <Reveal>
               <h2 className="font-serif text-4xl md:text-5xl text-[#0E3A40] mb-6">
-                Let's build something <span className="italic text-[#811331]">remarkable</span> together.
+                Let's build something <span className="italic text-[#B87333]">remarkable</span> together.
               </h2>
               <p className="text-stone-600 text-lg leading-relaxed max-w-md">
                 Whether you have a distinct vision or need guidance on where to begin, our team is ready to listen. We respond within 24 hours.
@@ -33,7 +33,7 @@ const Contact = () => {
                     <MapPin size={20} />
                   </div>
                   <div>
-                    <span className="text-[10px] uppercase tracking-[0.3em] text-[#811331] font-bold block mb-2">Visit Us</span>
+                    <span className="text-[10px] uppercase tracking-[0.3em] text-[#B87333] font-bold block mb-2">Visit Us</span>
                     <p className="font-serif text-xl text-[#0E3A40]">Saraswati School Road,</p>
                     <p className="font-serif text-xl text-[#0E3A40]">Nai Basti, Katni (M.P.)</p>
                   </div>
@@ -46,7 +46,7 @@ const Contact = () => {
                     <Phone size={20} />
                   </div>
                   <div>
-                    <span className="text-[10px] uppercase tracking-[0.3em] text-[#811331] font-bold block mb-2">Call Us</span>
+                    <span className="text-[10px] uppercase tracking-[0.3em] text-[#B87333] font-bold block mb-2">Call Us</span>
                     <p className="font-serif text-xl text-[#0E3A40] mb-1">Manoj Badgaiyan: +91 98272 16004</p>
                     <p className="font-serif text-xl text-[#0E3A40]">Shubham Badgaiyan: +91 84618 83444</p>
                   </div>
@@ -59,8 +59,8 @@ const Contact = () => {
                     <Mail size={20} />
                   </div>
                   <div>
-                    <span className="text-[10px] uppercase tracking-[0.3em] text-[#811331] font-bold block mb-2">Email Us</span>
-                    <a href="mailto:contact@manojbuilders.com" className="font-serif text-xl text-[#0E3A40] hover:text-[#811331] transition-colors">
+                    <span className="text-[10px] uppercase tracking-[0.3em] text-[#B87333] font-bold block mb-2">Email Us</span>
+                    <a href="mailto:contact@manojbuilders.com" className="font-serif text-xl text-[#0E3A40] hover:text-[#B87333] transition-colors">
                       contact@manojbuilders.com
                     </a>
                   </div>
@@ -78,7 +78,7 @@ const Contact = () => {
                     <label className="text-xs uppercase tracking-widest text-stone-500 font-bold">Full Name</label>
                     <input 
                       type="text" 
-                      className="w-full border-b border-stone-300 py-3 text-[#0E3A40] focus:outline-none focus:border-[#811331] transition-colors bg-transparent placeholder-stone-300" 
+                      className="w-full border-b border-stone-300 py-3 text-[#0E3A40] focus:outline-none focus:border-[#B87333] transition-colors bg-transparent placeholder-stone-300" 
                       placeholder="John Doe"
                     />
                   </div>
@@ -86,7 +86,7 @@ const Contact = () => {
                     <label className="text-xs uppercase tracking-widest text-stone-500 font-bold">Phone Number</label>
                     <input 
                       type="tel" 
-                      className="w-full border-b border-stone-300 py-3 text-[#0E3A40] focus:outline-none focus:border-[#811331] transition-colors bg-transparent placeholder-stone-300" 
+                      className="w-full border-b border-stone-300 py-3 text-[#0E3A40] focus:outline-none focus:border-[#B87333] transition-colors bg-transparent placeholder-stone-300" 
                       placeholder="+91 98765 43210"
                     />
                   </div>
@@ -96,7 +96,7 @@ const Contact = () => {
                   <label className="text-xs uppercase tracking-widest text-stone-500 font-bold">Email Address</label>
                   <input 
                     type="email" 
-                    className="w-full border-b border-stone-300 py-3 text-[#0E3A40] focus:outline-none focus:border-[#811331] transition-colors bg-transparent placeholder-stone-300" 
+                    className="w-full border-b border-stone-300 py-3 text-[#0E3A40] focus:outline-none focus:border-[#B87333] transition-colors bg-transparent placeholder-stone-300" 
                     placeholder="john@example.com"
                   />
                 </div>
@@ -105,7 +105,7 @@ const Contact = () => {
                   <label className="text-xs uppercase tracking-widest text-stone-500 font-bold">Project Details</label>
                   <textarea 
                     rows="4" 
-                    className="w-full border-b border-stone-300 py-3 text-[#0E3A40] focus:outline-none focus:border-[#811331] transition-colors bg-transparent placeholder-stone-300 resize-none" 
+                    className="w-full border-b border-stone-300 py-3 text-[#0E3A40] focus:outline-none focus:border-[#B87333] transition-colors bg-transparent placeholder-stone-300 resize-none" 
                     placeholder="Tell us about your vision..."
                   ></textarea>
                 </div>
@@ -113,10 +113,10 @@ const Contact = () => {
                 <div className="pt-4">
                   <button 
                     type="submit" 
-                    className="group relative px-10 py-4 overflow-hidden border border-[#811331] w-full md:w-auto"
+                    className="group relative px-10 py-4 overflow-hidden border border-[#B87333] w-full md:w-auto"
                   >
-                    <div className="absolute inset-0 w-0 bg-[#811331] transition-all duration-500 ease-out group-hover:w-full" />
-                    <span className="relative z-10 uppercase text-[11px] tracking-[0.3em] font-bold text-[#811331] group-hover:text-white flex items-center justify-center gap-3 transition-colors">
+                    <div className="absolute inset-0 w-0 bg-[#B87333] transition-all duration-500 ease-out group-hover:w-full" />
+                    <span className="relative z-10 uppercase text-[11px] tracking-[0.3em] font-bold text-[#B87333] group-hover:text-white flex items-center justify-center gap-3 transition-colors">
                       Send Message <ArrowRight size={16} />
                     </span>
                   </button>
