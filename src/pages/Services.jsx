@@ -49,8 +49,8 @@ const Services = () => {
       <section className="py-24 px-6 md:px-16 max-w-[1440px] mx-auto">
         <div className="max-w-4xl">
           <Reveal>
-             <span className="text-[10px] uppercase tracking-[0.4em] text-[#B87333] font-bold block mb-6">What We Do</span>
-            <h2 className="font-serif text-4xl md:text-5xl leading-tight text-[#0e3a40]">
+             <span className="text-[10px] uppercase tracking-[0.4em] text-[#811331] font-bold block mb-6">What We Do</span>
+            <h2 className="font-serif text-4xl md:text-5xl leading-tight text-[#0E3A40]">
               Detailed, accountable, and <span className="italic text-stone-400">design-led</span> services across architecture, interiors, and execution.
             </h2>
           </Reveal>
@@ -67,14 +67,14 @@ const Services = () => {
               <Reveal direction={i % 2 === 1 ? 'left' : 'right'}>
                 <div className="aspect-[4/3] md:aspect-[16/10] overflow-hidden relative group">
                    {/* Decorative border frame */}
-                   <div className="absolute inset-0 border border-[#0e3a40]/10 m-4 z-20 pointer-events-none" />
+                   <div className="absolute inset-0 border border-[#0E3A40]/10 m-4 z-20 pointer-events-none" />
                    
                    <img 
                     src={s.img} 
                     alt={s.title} 
                     className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" 
                   />
-                  <div className="absolute inset-0 bg-[#0e3a40]/10 group-hover:bg-transparent transition-colors duration-500" />
+                  <div className="absolute inset-0 bg-[#0E3A40]/10 group-hover:bg-transparent transition-colors duration-500" />
                 </div>
               </Reveal>
               {/* Number Overlay */}
@@ -88,19 +88,19 @@ const Services = () => {
             {/* Content Side */}
             <div className={`${i % 2 === 1 ? 'lg:order-1' : ''} relative z-10`}>
               <Reveal direction={i % 2 === 1 ? 'right' : 'left'}>
-                <span className="text-[10px] uppercase tracking-[0.4em] text-[#B87333] font-bold mb-4 block">
+                <span className="text-[10px] uppercase tracking-[0.4em] text-[#811331] font-bold mb-4 block">
                    Service 0{i + 1}
                 </span>
-                <h3 className="text-3xl md:text-4xl font-serif text-[#0e3a40] mb-6">{s.title}</h3>
-                <div className="h-[1px] w-12 bg-[#B87333] mb-8" />
+                <h3 className="text-3xl md:text-4xl font-serif text-[#0E3A40] mb-6">{s.title}</h3>
+                <div className="h-[1px] w-12 bg-[#811331] mb-8" />
                 <p className="text-stone-600 text-lg leading-relaxed">
                   {s.desc}
                 </p>
                 
                 {/* Optional "Learn More" link style */}
-                {/* <button className="mt-8 group flex items-center gap-3 text-[#0e3a40] text-xs uppercase tracking-widest font-bold">
+                {/* <button className="mt-8 group flex items-center gap-3 text-[#0E3A40] text-xs uppercase tracking-widest font-bold">
                   Learn More 
-                  <span className="w-8 h-[1px] bg-[#0e3a40] group-hover:w-12 transition-all duration-300" />
+                  <span className="w-8 h-[1px] bg-[#0E3A40] group-hover:w-12 transition-all duration-300" />
                 </button> */}
               </Reveal>
             </div>
