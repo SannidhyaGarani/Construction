@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import Reveal from '../../Components/Reveal';
 
 const images = [
-  { src: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1600&auto=format&fit=crop', label: 'Private Residence', location: 'Katni', num: '01' },
-  { src: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1600&auto=format&fit=crop', label: 'Commercial Landmark', location: 'Indore', num: '02' },
-  { src: 'img/a (2).jpeg', label: 'Private Residence', location: 'Katni', num: '01' },
-  {  src: 'img/a.jpeg', label: 'Commercial Landmark', location: 'Indore', num: '02' },
+  { src: 'img/a (1).jpeg', label: 'Private Residence', location: 'Katni', num: '01' },
+  { src: 'img/a (2).jpeg', label: 'Commercial Landmark', location: 'Indore', num: '02' },
+  { src: 'img/a (3).jpeg', label: 'Private Residence', location: 'Katni', num: '01' },
+  {  src: 'img/a (4).jpeg', label: 'Commercial Landmark', location: 'Indore', num: '02' },
 ];
 
 const ProjectsPreview = () => {

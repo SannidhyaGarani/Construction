@@ -7,32 +7,32 @@ const services = [
   {
     title: 'Building Design',
     desc: 'From initial concept to construction-ready drawings, we provide functional planning that balances aesthetics with practicality. Our design process ensures clarity in detailing and efficiency in execution.',
-    img: 'https://images.unsplash.com/photo-1529420705456-2d43f7f26d0f?q=80&w=1600&auto=format&fit=crop',
+    img: 'img/a (2).jpeg',
   },
   {
     title: 'Construction',
     desc: 'End-to-end execution with a focus on quality materials, strict supervision, and safety standards. We manage the entire lifecycle, ensuring timelines are met without compromising on structural integrity.',
-    img: 'https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=1600&auto=format&fit=crop',
+    img: 'img/a (1).jpeg',
   },
   {
     title: 'Elevation Design',
     desc: 'Creating modern facades and proportional massing aligned to context and budget. We craft elevations that make a statement while remaining harmonious with the surroundings.',
-    img: 'https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1600&auto=format&fit=crop',
+    img: 'img/a (3).jpeg',
   },
   {
     title: 'Interior Design',
     desc: 'Clean, durable, and timeless interiors with cohesive material palettes. We focus on creating spaces that are not just visually appealing but also deeply comfortable and functional.',
-    img: 'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=1600&auto=format&fit=crop',
+    img: 'img/a (4).jpeg',
   },
   {
     title: 'Structural Detail',
     desc: 'Precise engineering drawings and coordination for safe, efficient structures. Our structural detailing ensures the longevity and stability of your investment.',
-    img: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1600&auto=format&fit=crop',
+    img: 'img/a (5).jpeg',
   },
   {
     title: 'Nagar Nigam Naksha Pass',
     desc: 'Navigating municipal approvals with compliant documentation and persistent follow-through. We handle the regulatory complexities so you can focus on the vision.',
-    img: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1600&auto=format&fit=crop',
+    img: 'img/a (6).jpeg',
   },
 ];
 
