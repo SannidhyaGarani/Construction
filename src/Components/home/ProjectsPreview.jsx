@@ -42,7 +42,7 @@ const ProjectsPreview = () => {
                 Portfolio
               </span>
               <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-[1.1]" style={{ color: darkTeal }}>
-                Selected <span className="italic text-stone-400">Works</span>
+                Our <span className="italic text-stone-400">Works</span>
               </h2>
             </div>
           </Reveal>

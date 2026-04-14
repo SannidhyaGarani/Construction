@@ -21,7 +21,7 @@ const BrandIntro = () => {
             <Reveal>
               <div className="flex items-center gap-4 mb-8">
                 <div className={`w-12 h-[1px]`} style={{ backgroundColor: brandWine }} />
-                <span className="uppercase tracking-[0.5em] text-[10px] font-bold" style={{ color: brandWine }}>
+                <span className="uppercase tracking-[0.5em] text-[14px] font-bold" style={{ color: brandWine }}>
                   Our Legacy
                 </span>
               </div>
@@ -37,7 +37,7 @@ const BrandIntro = () => {
             <Reveal delay={0.4}>
               <div className="max-w-xl">
                 <p className="text-lg md:text-xl text-stone-600 font-light leading-relaxed mb-8">
-                  Founded in 1995 by <span className="font-medium text-stone-900">Manoj Badgaiyan</span>, 
+                  Founded in 1995 by <span className="font-medium text-stone-900">Mr.Manoj Badgaiyan</span>, 
                   our practice transcends traditional construction. We deliver residential and commercial 
                   landmarks across Madhya Pradesh.
                 </p>
@@ -58,7 +58,7 @@ const BrandIntro = () => {
                 <div className="group relative bg-white p-10 md:p-12 shadow-[20px_20px_60px_rgba(0,0,0,0.03)] border-l-2" style={{ borderLeftColor: brandWine }}>
                   <div className="uppercase tracking-[0.4em] text-[9px] text-stone-400 mb-4 font-bold">The Visionary</div>
                   <div className="font-serif text-3xl md:text-4xl transition-colors duration-500 group-hover:text-[#B87333]" style={{ color: darkTeal }}>
-                    Manoj <br /> Badgaiyan
+                   Shubham <br /> Badgaiyan
                   </div>
                   <div className="absolute top-8 right-8 text-stone-100 font-serif text-6xl select-none group-hover:text-stone-200 transition-colors duration-500">
                     01
@@ -89,15 +89,15 @@ const BrandIntro = () => {
         {/* Bottom Stat Bar - Subtle */}
         <div className="mt-24 pt-12 border-t border-stone-200 flex flex-wrap gap-12 md:gap-24">
            <div>
-              <span className="block text-[10px] uppercase tracking-[0.3em] text-stone-400 mb-2">Location</span>
-              <span className="text-sm font-medium" style={{ color: darkTeal }}>All over MP</span>
+              <span className="block text-[14px] uppercase tracking-[0.3em] text-stone-400 mb-2">Location</span>
+              <span className="text-sm font-medium" style={{ color: darkTeal }}>Katni & Indore</span>
            </div>
            <div>
-              <span className="block text-[10px] uppercase tracking-[0.3em] text-stone-400 mb-2">Projects</span>
+              <span className="block text-[14px] uppercase tracking-[0.3em] text-stone-400 mb-2">Projects</span>
               <span className="text-sm font-medium" style={{ color: darkTeal }}>500+ Completed</span>
            </div>
            <div>
-              <span className="block text-[10px] uppercase tracking-[0.3em] text-stone-400 mb-2">Focus</span>
+              <span className="block text-[14px] uppercase tracking-[0.3em] text-stone-400 mb-2">Focus</span>
               <span className="text-sm font-medium" style={{ color: darkTeal }}>Luxury Residential & Industrial</span>
            </div>
         </div>

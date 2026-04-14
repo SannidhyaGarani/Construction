@@ -57,7 +57,7 @@ const HeroSection = () => {
           {/* Description Text */}
           <div className={`mt-8 max-w-md transition-all duration-1000 delay-1000 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}>
             <p className="text-stone-400 text-sm md:text-base font-light leading-relaxed tracking-wide">
-              Subham Builders bridges the gap between visionary architecture and disciplined execution. Specialized in high-end residential and commercial estates across Central India.
+              Shubham Builders bridges the gap between visionary architecture and disciplined execution. Specialized in high-end residential and commercial estates across Central India.
             </p>
           </div>
 

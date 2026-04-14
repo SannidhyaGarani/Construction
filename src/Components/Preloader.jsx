@@ -81,7 +81,7 @@ const Preloader = () => {
                     {/* The Logo with a White Inversion for the Dark Background */}
                     <img 
                         src={logo} 
-                        alt="Subham Builders" 
+                        alt="Shubham Builders" 
                         className="h-20 md:h-24 mb-8 brightness-0 invert object-contain"
                     />
                     

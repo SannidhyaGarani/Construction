@@ -18,12 +18,12 @@ const About = () => {
         <div className="max-w-4xl">
           <Reveal>
             <h2 className="font-serif text-4xl md:text-6xl leading-tight mb-8 text-[#0e3a40]">
-              Subham Builders <span className="italic text-[#B87333]">bridges the gap</span> between visionary architecture and disciplined execution.
+              Shubham Builders <span className="italic text-[#B87333]">bridges the gap</span> between visionary architecture and disciplined execution.
             </h2>
           </Reveal>
           <Reveal delay={0.2}>
             <p className="text-stone-600 text-lg md:text-xl leading-relaxed max-w-2xl">
-              Founded in 1995 by Manoj Badgaiyan, our firm has grown from a local contractor in Katni to a premier construction and real estate company serving Central India. We believe in transparency, precision, and the enduring power of quality.
+              Founded in 1995 by Mr.Manoj Badgaiyan, our firm has grown from a local contractor in Katni to a premier construction and real estate company serving Central India. We believe in transparency, precision, and the enduring power of quality.
             </p>
           </Reveal>
         </div>
@@ -40,7 +40,7 @@ const About = () => {
         <div className="max-w-[1440px] mx-auto relative z-10">
           <div className="mb-20 text-center">
             <span className="text-[10px] uppercase tracking-[0.4em] text-[#B87333] font-bold">Milestones</span>
-            <h3 className="font-serif text-4xl md:text-5xl mt-4 text-[#0e3a40]">A History of Excellence</h3>
+            <h3 className="font-serif text-4xl md:text-5xl mt-4 text-[#0e3a40]">A History of Experience</h3>
           </div>
 
           <div className="space-y-24">
@@ -140,12 +140,12 @@ const About = () => {
               
               <div className="mt-12 grid grid-cols-2 gap-8">
                  <div>
-                    <h4 className="font-serif text-xl mb-2">Subham Badgaiyan</h4>
+                    <h4 className="font-serif text-xl mb-2">Mr. Manoj Badgaiyan</h4>
                     <p className="text-xs uppercase tracking-widest text-stone-400">Founder</p>
                  </div>
                  <div>
                     <h4 className="font-serif text-xl mb-2">Shubham Badgaiyan</h4>
-                    <p className="text-xs uppercase tracking-widest text-stone-400">Lead Architect</p>
+                    <p className="text-xs uppercase tracking-widest text-stone-400">Structural Engineer</p>
                  </div>
               </div>
             </Reveal>

@@ -36,7 +36,7 @@ const Header = () => {
           <Link to="/" className="flex items-center group z-50">
             <img
               src={logo}
-              alt="Subham Builders Logo"
+              alt="Shubham Builders Logo"
               className={`h-12 md:h-14 transition-all duration-700 object-contain ${
                 isScrolled ? 'opacity-100' : 'brightness-0 invert opacity-95'
               }`}

@@ -47,7 +47,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <span className="text-[10px] uppercase tracking-[0.3em] text-[#B87333] font-bold block mb-2">Call Us</span>
-                    <p className="font-serif text-xl text-[#0E3A40] mb-1">Subham Badgaiyan: +91 98272 16004</p>
+                    <p className="font-serif text-xl text-[#0E3A40] mb-1">Shubham Badgaiyan: +91 98272 16004</p>
                     <p className="font-serif text-xl text-[#0E3A40]">Shubham Badgaiyan: +91 84618 83444</p>
                   </div>
                 </div>

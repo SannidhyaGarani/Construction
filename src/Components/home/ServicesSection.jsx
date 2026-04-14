@@ -7,7 +7,7 @@ const services = [
   { t: 'Elevation Design', d: 'Proportioned facades aligned to context and budget.' },
   { t: 'Interior Design', d: 'Durable, cohesive interiors with timeless material palettes.' },
   { t: 'Structural Detail', d: 'Engineering for safe, efficient structures.' },
-  { t: 'Approvals', d: 'Compliant submissions and Nagar Nigam Naksha approvals.' },
+  { t: 'Nagar Nigam Plan Approval', d: 'Compliant submissions and Nagar Nigam Naksha approvals.' },
 ];
 
 const ServicesSection = () => {
