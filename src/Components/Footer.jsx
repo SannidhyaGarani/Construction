@@ -125,8 +125,8 @@ const Footer = () => {
                 <div>
                   <span className="text-[10px] uppercase tracking-[0.2em] text-[#B87333] font-bold block mb-1">Branch Office</span>
                   <p className="text-[14px] font-light text-slate-300 leading-relaxed">
-                    Near prestige college,scheme no 113, 
-                    Vijay Nagar, Indore , MP 452010
+                    Near Prestige College, Scheme No 113, 
+                    Vijay Nagar, Indore , MP - 452010
                   </p>
                 </div>
               </div>

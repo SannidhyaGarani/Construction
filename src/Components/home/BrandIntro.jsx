@@ -98,7 +98,7 @@ const BrandIntro = () => {
           </div>
           <div>
             <span className="block text-[14px] uppercase tracking-[0.3em] text-stone-400 mb-2">Focus</span>
-            <span className="text-sm font-medium" style={{ color: darkTeal }}>Luxury Residential & Industrial</span>
+            <span className="text-sm font-medium" style={{ color: darkTeal }}>Luxury Residential & Commercial</span>
           </div>
         </div>
       </div>

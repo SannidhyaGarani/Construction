@@ -13,7 +13,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const whatsappNumber = "919827216004";
+    const whatsappNumber = "918461883444";
     const text = `*New Inquiry*%0A%0A*Name:* ${formData.name}%0A*Contact No:* ${formData.phone}%0A*Project Address:* ${formData.address}`;
     window.open(`https://wa.me/${whatsappNumber}?text=${text}`, '_blank');
   };
@@ -51,16 +51,17 @@ const Contact = () => {
                     <MapPin size={20} />
                   </div>
                   <div className="space-y-6">
-                    <div>
+                     <div>
                       <span className="text-[14px] uppercase tracking-[0.3em] text-[#B87333] font-bold block mb-2">Head Office</span>
-                      <p className="font-serif text-xl text-[#0E3A40]">Near prestige college,scheme no 113-</p>
-                      <p className="font-serif text-xl text-[#0E3A40]">Vijay Nagar Indore mp 452010</p>
-                    </div>
-                    <div>
-                      <span className="text-[14px] uppercase tracking-[0.3em] text-[#B87333] font-bold block mb-2">Branch Office</span>
                       <p className="font-serif text-xl text-[#0E3A40]">Saraswati School Road,</p>
                       <p className="font-serif text-xl text-[#0E3A40]">Nai Basti, Katni (M.P.)</p>
                     </div>
+                    <div>
+                      <span className="text-[14px] uppercase tracking-[0.3em] text-[#B87333] font-bold block mb-2">Branch Office</span>
+                      <p className="font-serif text-xl text-[#0E3A40]">Near Prestige College, Scheme No 113-</p>
+                      <p className="font-serif text-xl text-[#0E3A40]">Vijay Nagar Indore MP - 452010</p>
+                    </div>
+                   
                   </div>
                 </div>
               </Reveal>
@@ -72,7 +73,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <span className="text-[14px] uppercase tracking-[0.3em] text-[#B87333] font-bold block mb-2">Call Us</span>
-                    <p className="font-serif text-xl text-[#0E3A40] mb-1">Shubham Badgaiyan: +91 98272 16004</p>
+                    <p className="font-serif text-xl text-[#0E3A40] mb-1">Mr. Manoj Badgaiyan: +91 98272 16004</p>
                     <p className="font-serif text-xl text-[#0E3A40]">Shubham Badgaiyan: +91 84618 83444</p>
                   </div>
                 </div>
@@ -112,7 +113,7 @@ const Contact = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <label className="text-sm uppercase tracking-widest text-stone-500 font-bold">Contact No</label>
+                  <label className="text-sm uppercase tracking-widest text-stone-500 font-bold">Whatapp No</label>
                   <input 
                     required
                     type="tel" 

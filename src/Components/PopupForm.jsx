@@ -28,7 +28,7 @@ const PopupForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const whatsappNumber = "919827216004";
+    const whatsappNumber = "918461883444";
     const text = `*New Inquiry (Popup)*%0A%0A*Name:* ${formData.name}%0A*Contact No:* ${formData.phone}%0A*Project Address:* ${formData.address}`;
     
     // Redirect to WhatsApp
@@ -102,7 +102,7 @@ const PopupForm = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <label className="text-[10px] uppercase tracking-widest text-stone-500 font-bold">Contact No</label>
+                  <label className="text-[10px] uppercase tracking-widest text-stone-500 font-bold">Whatsapp No</label>
                   <input
                     required
                     type="tel"

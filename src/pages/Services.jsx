@@ -9,19 +9,19 @@ const services = [
     id: 'plan-approval',
     title: 'Nagar Nigam Plan Approval',
     desc: 'Compliant submissions and Nagar Nigam Naksha approvals. We handle the process of legal compliance and municipal coordination.',
-    img: 'https://images.unsplash.com/photo-1582213726894-4974473a21b4?q=80&w=2070&auto=format&fit=crop',
+    img: 'img/n1.png',
+  },
+  {
+    id: 'building-planning',
+    title: 'Building Planning',
+    desc: 'From initial concept to construction-ready drawings, we provide functional planning that balances aesthetics with practicality. Our design process ensures clarity in detailing and efficiency in execution.',
+    img: 'img/nn.png',
   },
   {
     id: 'structural-detail',
     title: 'Structure Detailing',
     desc: 'Precise engineering drawings and coordination for safe, efficient structures. Our structural detailing ensures the longevity and stability of your investment.',
     img: 'img/a (5).jpeg',
-  },
-  {
-    id: 'building-planning',
-    title: 'Building Planning',
-    desc: 'From initial concept to construction-ready drawings, we provide functional planning that balances aesthetics with practicality. Our design process ensures clarity in detailing and efficiency in execution.',
-    img: 'img/a (2).jpeg',
   },
   {
     id: 'elevation-design',
@@ -72,14 +72,14 @@ const Services = () => {
             {/* Image Side */}
             <div className={`relative ${i % 2 === 1 ? 'lg:order-2' : ''}`}>
               <Reveal direction={i % 2 === 1 ? 'left' : 'right'}>
-                <div className="aspect-[4/3] md:aspect-[16/10] overflow-hidden relative group">
+                <div className={`overflow-hidden relative group rounded-2xl shadow-xl ${i === 1 ? 'max-w-[75%] mx-auto' : ''}`}>
                    {/* Decorative border frame */}
-                   <div className="absolute inset-0 border border-[#0E3A40]/10 m-4 z-20 pointer-events-none" />
+                   <div className="absolute inset-0 border border-[#0E3A40]/10 m-4 z-20 pointer-events-none rounded-xl" />
                    
                    <img 
                     src={s.img} 
                     alt={s.title} 
-                    className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" 
+                    className="w-full h-auto transition-transform duration-1000 group-hover:scale-105" 
                   />
                   <div className="absolute inset-0 bg-[#0E3A40]/10 group-hover:bg-transparent transition-colors duration-500" />
                 </div>

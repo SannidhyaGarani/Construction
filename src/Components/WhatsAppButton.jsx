@@ -3,7 +3,7 @@ import { MessageCircle } from 'lucide-react';
 
 const WhatsAppButton = () => {
     const [showPopup, setShowPopup] = useState(false);
-    const phoneNumber = "919827216004"; // Using the primary number from footer
+    const phoneNumber = "918461883444"; // Using the primary number from footer
     const message = "Hello! I'm interested in your construction services. Can we discuss?";
 
     useEffect(() => {

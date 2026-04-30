@@ -66,12 +66,12 @@ const HeroSection = () => {
             
             {/* Primary Button: The "Wine Draw" */}
             <Link 
-              to="/contact" 
+              to="/gallery" 
               className="group relative px-10 py-4 overflow-hidden border border-[#B87333]/30 transition-all duration-500"
             >
               <div className="absolute inset-0 w-0 bg-[#B87333] transition-all duration-500 ease-out group-hover:w-full" />
               <span className="relative z-10 uppercase text-[10px] tracking-[0.4em] font-bold text-white flex items-center gap-3">
-                Start Project <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
+                View all existing projects <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
 

@@ -5,57 +5,44 @@ import CTASection from '../Components/home/CTASection';
 import { ArrowUpRight, X } from 'lucide-react';
 
 const projects = [
-  { src: 'img/a (1).jpeg', type: 'commercial' },
-  { src: 'img/a (2).jpeg', type: 'residential' },
-  { src: 'img/a (3).jpeg', type: 'commercial' },
-  { src: 'img/a (4).jpeg', type: 'residential' },
-  { src: 'img/a (5).jpeg', type: 'commercial' },
-  { src: 'img/a (6).jpeg', type: 'residential' },
-  { src: 'img/a (7).jpeg', type: 'commercial' },
-  { src: 'img/a (8).jpeg', type: 'residential' },
-    { src: 'img/a (9).jpeg', type: 'commercial' },
-    { src: 'img/a (10).jpeg', type: 'residential' },
-    { src: 'img/a (11).jpeg', type: 'commercial' },
-    { src: 'img/a (12).jpeg', type: 'residential' },
-    { src: 'img/a (13).jpeg', type: 'commercial' },
-    { src: 'img/a (14).jpeg', type: 'residential' },
-    { src: 'img/a (15).jpeg', type: 'commercial' },
-    { src: 'img/a (16).jpeg', type: 'residential' },
-    { src: 'img/a (17).jpeg', type: 'commercial' },
-    { src: 'img/a (18).jpeg', type: 'residential' },
-    { src: 'img/a (19).jpeg', type: 'commercial' },
-    { src: 'img/a (20).jpeg', type: 'residential' },
-    { src: 'img/a (21).jpeg', type: 'commercial' },
-    { src: 'img/a (22).jpeg', type: 'residential' },
-    { src: 'img/a (23).jpeg', type: 'commercial' },
-    { src: 'img/a (24).jpeg', type: 'residential' },
-    { src: 'img/a (25).jpeg', type: 'commercial' },
-    { src: 'img/a (26).jpeg', type: 'residential' },
-    { src: 'img/a (27).jpeg', type: 'commercial' },
-    { src: 'img/a (28).jpeg', type: 'residential' },
-    { src: 'img/a (29).jpeg', type: 'commercial' },
-    { src: 'img/a (30).jpeg', type: 'residential' },
-    { src: 'img/a (31).jpeg', type: 'commercial' },
-    { src: 'img/a (32).jpeg', type: 'residential' },
-    { src: 'img/a (33).jpeg', type: 'commercial' },
-    { src: 'img/a (34).jpeg', type: 'residential' },
-    // { src: 'img/a (35).jpeg' },
-    // { src: 'img/a (36).jpeg' },
-    // { src: 'img/a (37).jpeg' },
-    // { src: 'img/a (38).jpeg' },
-    // { src: 'img/a (39).jpeg' },
-    // { src: 'img/a (40).jpeg' },
-    // { src: 'img/a (41).jpeg' },
-    // { src: 'img/a (42).jpeg' },
-    // { src: 'img/a (43).jpeg' },
-    // { src: 'img/a (44).jpeg' },
-    // { src: 'img/a (45).jpeg' },
-    // { src: 'img/a (46).jpeg' },
-    // { src: 'img/a (47).jpeg' },
-    // { src: 'img/a (48).jpeg' },
-    // { src: 'img/a (49).jpeg' },
-    // { src: 'img/a (50).jpeg' },
-    // { src: 'img/a (51).jpeg' },
+  { src: 'img/r/r (1).jpeg', type: 'residential' },
+  { src: 'img/r/r (2).jpeg', type: 'residential' },
+  { src: 'img/r/r (3).jpeg', type: 'residential' },
+  { src: 'img/r/r (4).jpeg', type: 'residential' },
+  { src: 'img/r/r (5).jpeg', type: 'residential' },
+  { src: 'img/r/r (6).jpeg', type: 'residential' },
+  { src: 'img/r/r (7).jpeg', type: 'residential' },
+  { src: 'img/r/r (8).jpeg', type: 'residential' },
+  { src: 'img/r/r (9).jpeg', type: 'residential' },
+  { src: 'img/r/r (10).jpeg', type: 'residential' },
+  { src: 'img/r/r (11).jpeg', type: 'residential' },
+  { src: 'img/r/r (12).jpeg', type: 'residential' },
+  { src: 'img/r/r (13).jpeg', type: 'residential' },
+  { src: 'img/r/r (14).jpeg', type: 'residential' },
+  { src: 'img/r/r (15).jpeg', type: 'residential' },
+  { src: 'img/r/r (16).jpeg', type: 'residential' },
+  { src: 'img/r/r (17).jpeg', type: 'residential' },
+  { src: 'img/r/r (18).jpeg', type: 'residential' },
+  { src: 'img/r/r (19).jpeg', type: 'residential' },
+  { src: 'img/r/r (20).jpeg', type: 'residential' },
+  { src: 'img/r/r (21).jpeg', type: 'residential' },
+  { src: 'img/r/k (1).jpeg', type: 'residential' },
+  { src: 'img/r/k (2).jpeg', type: 'residential' },
+  { src: 'img/r/k (3).jpeg', type: 'residential' },
+  { src: 'img/r/k (4).jpeg', type: 'residential' },
+  { src: 'img/r/k (5).jpeg', type: 'residential' },
+  { src: 'img/r/k (6).jpeg', type: 'residential' },
+  { src: 'img/c/c.jpeg', type: 'commercial' },
+  { src: 'img/c/c (1).jpeg', type: 'commercial' },
+  { src: 'img/c/c (2).jpeg', type: 'commercial' },
+  { src: 'img/c/c (3).jpeg', type: 'commercial' },
+  { src: 'img/c/c (4).jpeg', type: 'commercial' },
+  { src: 'img/c/c (5).jpeg', type: 'commercial' },
+  { src: 'img/c/c (6).jpeg', type: 'commercial' },
+  { src: 'img/c/c (7).jpeg', type: 'commercial' },
+  { src: 'img/c/c (8).jpeg', type: 'commercial' },
+
+  
   
   
 ];
@@ -63,11 +50,9 @@ const projects = [
 const Gallery = () => {
   const [visibleCount, setVisibleCount] = useState(9);
   const [selectedImage, setSelectedImage] = useState(null);
-  const [activeFilter, setActiveFilter] = useState('all');
+  const [activeFilter, setActiveFilter] = useState('commercial');
 
-  const filteredProjects = activeFilter === 'all' 
-    ? projects 
-    : projects.filter(project => project.type === activeFilter);
+  const filteredProjects = projects.filter(project => project.type === activeFilter);
 
   const handleShowMore = () => {
     setVisibleCount(prev => prev + 9);
@@ -78,7 +63,6 @@ const Gallery = () => {
   };
 
   const filters = [
-    { id: 'all', label: 'All Projects' },
     { id: 'commercial', label: 'Commercial' },
     { id: 'residential', label: 'Residential' },
   ];
@@ -176,24 +160,34 @@ const Gallery = () => {
         )}
       </section>
 
-      {/* Popup Overlay */}
+      {/* Premium Popup Overlay */}
       {selectedImage && (
         <div 
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4"
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/85 backdrop-blur-md p-4 sm:p-6 transition-all duration-500"
           onClick={closeOverlay}
         >
-          <button 
-            className="absolute top-6 right-6 text-white hover:text-[#B87333] transition-colors"
-            onClick={closeOverlay}
+          <div 
+            className="relative w-[95vw] sm:w-[85vw] lg:w-[1100px] h-[60vh] sm:h-[80vh] lg:h-[650px] bg-stone-900/80 p-2 sm:p-3 rounded-3xl shadow-[0_0_60px_-15px_rgba(0,0,0,0.9)] border border-white/10 transform transition-all duration-500 opacity-100 scale-100" 
+            onClick={(e) => e.stopPropagation()}
           >
-            <X size={32} />
-          </button>
-          <div className="relative max-w-5xl max-h-[90vh] w-full" onClick={(e) => e.stopPropagation()}>
-            <img 
-              src={selectedImage} 
-              alt="Popup" 
-              className="w-full h-full object-contain"
-            />
+            {/* Premium Close Button */}
+            <button 
+              className="absolute -top-4 -right-4 sm:-top-5 sm:-right-5 text-white/80 hover:text-white bg-[#0c0a09] hover:bg-[#B87333] p-3 rounded-full transition-all duration-300 z-10 shadow-[0_8px_30px_rgb(0,0,0,0.5)] border border-white/20 hover:scale-110 hover:rotate-90 flex items-center justify-center"
+              onClick={closeOverlay}
+            >
+              <X size={20} className="sm:w-6 sm:h-6" />
+            </button>
+            
+            {/* Image Container */}
+            <div className="w-full h-full overflow-hidden rounded-2xl bg-black flex items-center justify-center relative">
+               <div className="absolute inset-0 ring-1 ring-inset ring-white/10 rounded-2xl pointer-events-none z-10" />
+               <div className="absolute inset-0 bg-gradient-to-tr from-white/5 to-transparent pointer-events-none z-10" />
+               <img 
+                src={selectedImage} 
+                alt="Project Showcase" 
+                className="w-full h-full object-contain select-none shadow-2xl"
+              />
+            </div>
           </div>
         </div>
       )}
