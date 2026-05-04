@@ -76,7 +76,7 @@ const About = () => {
                  <Reveal direction="right">
                   <div className="aspect-[4/3] bg-stone-100 overflow-hidden relative group">
                     <img 
-                      src="img/a ().jpeg" 
+                      src="img/2010.jpeg" 
                       alt="Scaling Capabilities" 
                       className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-110"
                     />
