@@ -190,6 +190,7 @@ const ProjectCard = ({ project, color, teal }) => {
           <img
             src={project.src}
             alt={project.label}
+            loading="lazy"
             className="w-full h-full object-cover scale-100 group-hover:scale-110 transition-transform duration-[1.5s] ease-[cubic-bezier(0.2,1,0.3,1)]"
           />
         )}

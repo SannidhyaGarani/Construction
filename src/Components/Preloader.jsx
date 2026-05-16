@@ -20,26 +20,26 @@ const Preloader = () => {
             
             // Smoother, non-linear progress
             let newProgress;
-            if (elapsed < 1000) {
-                newProgress = (elapsed / 1000) * 30;
-            } else if (elapsed < 2000) {
-                newProgress = 30 + ((elapsed - 1000) / 1000) * 50;
+            if (elapsed < 300) {
+                newProgress = (elapsed / 300) * 40;
+            } else if (elapsed < 800) {
+                newProgress = 40 + ((elapsed - 300) / 500) * 50;
             } else {
-                newProgress = 80 + ((elapsed - 2000) / 1000) * 20;
+                newProgress = 90 + ((elapsed - 800) / 400) * 10;
                 newProgress = Math.min(newProgress, 100);
             }
             
             setProgress(newProgress);
             
-            if (elapsed < 800) {
+            if (elapsed < 400) {
                 setPhase('enter');
-            } else if (elapsed < 3200) {
+            } else if (elapsed < 1100) {
                 setPhase('hold');
             } else {
                 setPhase('exit');
             }
             
-            if (elapsed < 3800) {
+            if (elapsed < 1500) {
                 animationFrame = requestAnimationFrame(animate);
             } else {
                 setIsVisible(false);

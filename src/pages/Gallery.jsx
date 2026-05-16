@@ -44,6 +44,7 @@ const GalleryCard = ({ project, index, setSelectedItem }) => {
             <img 
               src={project.src} 
               alt={project.title || 'Gallery Image'} 
+              loading="lazy"
               className="w-full h-auto object-cover transition-transform duration-700 ease-out group-hover:scale-110 group-hover:opacity-60" 
             />
           )}
