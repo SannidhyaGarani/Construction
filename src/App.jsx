@@ -9,8 +9,9 @@ import Preloader from "./Components/Preloader";
 import WhatsAppButton from "./Components/WhatsAppButton";
 import PopupForm from "./Components/PopupForm";
 
-// Lazy Load Pages for Performance
-const Home = lazy(() => import("./pages/Home"));
+import Home from "./pages/Home";
+
+// Lazy Load Other Pages for Performance
 const About = lazy(() => import("./pages/About.jsx"));
 const Services = lazy(() => import("./pages/Services.jsx"));
 const Gallery = lazy(() => import("./pages/Gallery.jsx"));
@@ -27,7 +28,7 @@ function App() {
     // Reduced timeout for faster perceived performance
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1200); 
+    }, 1500); 
 
     return () => clearTimeout(timer);
   }, []);

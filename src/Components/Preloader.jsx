@@ -120,7 +120,7 @@ const Preloader = () => {
                     absolute bottom-12 flex gap-8 transition-all duration-1000 delay-500
                     ${phase === 'exit' ? 'opacity-0 translate-y-4' : 'opacity-100'}
                 `}>
-                    {['KATNI', 'INDORE', 'BHOPAL'].map((city) => (
+                    {['KATNI', 'INDORE'].map((city) => (
                         <span key={city} className="text-[14px] tracking-[0.3em] text-white/20 uppercase font-medium">
                             {city}
                         </span>

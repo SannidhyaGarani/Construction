@@ -151,13 +151,13 @@ const About = () => {
             </Reveal>
           </div>
           <div className="relative">
-             <Reveal direction="left" delay={0.3}>
-                <div className="aspect-[3/4] md:aspect-square bg-stone-800 overflow-hidden border border-white/10 relative">
+              <Reveal direction="left" delay={0.3}>
+                <div className="md:aspect-square bg-stone-800 overflow-hidden border border-white/10 relative">
                    {/* Abstract/Architectural Image */}
                    <img 
                       src="/img/d.jpeg" 
                       alt="Architectural Detail" 
-                      className="object-cover w-full h-full opacity-60 hover:opacity-100 transition-opacity duration-700"
+                      className="w-full h-auto md:h-full object-contain opacity-60 hover:opacity-100 transition-opacity duration-700"
                    />
                 </div>
              </Reveal>

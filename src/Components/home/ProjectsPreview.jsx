@@ -16,12 +16,12 @@ import { galleryProjects } from '../../data/galleryData';
 
 // Select a representative subset for the home slider
 const images = [
-  ...galleryProjects.filter(p => p.type === 'commercial').slice(0, 4),
-  ...galleryProjects.filter(p => p.type === 'residential').slice(0, 4),
+  ...galleryProjects.filter(p => p.type === 'commercial building').slice(0, 4),
+  ...galleryProjects.filter(p => p.type === 'residential building').slice(0, 4),
 ].map((p, i) => ({
   ...p,
   num: (i + 1).toString().padStart(2, '0'),
-  label: p.type.charAt(0).toUpperCase() + p.type.slice(1) + ' Project'
+  label: (p.type.includes('commercial') ? 'Commercial' : 'Residential') + ' Project'
 }));
 
 const ProjectsPreview = () => {
